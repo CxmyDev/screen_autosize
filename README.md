@@ -151,7 +151,7 @@ Tips：需要注意，因为库里改写了 devicePixelRatio，所以不能直�
 
 ![old_size](art/old_size.jpg)
 
-未适配前：从左到右的 dip 分别是 375 → 392 → 440
+使用 screen_autosize 适配后：从左到右的 dip 分别是 375 → 392 → 440
 
 ![auto_size](art/auto_size.jpg)
 
