@@ -1,8 +1,8 @@
 # screen_autosize
 
 <p align="center">
-   <a href="https://pub.dartlang.org/packages/flutter_screenutil">
-    <img src="https://img.shields.io/pub/v/flutter_screenutil.svg" alt="pub package" />
+   <a href="https://pub.flutter-io.cn/packages/screen_autosize">
+    <img src="https://img.shields.io/pub/v/screen_autosize.svg" alt="pub package" />
   </a>
   <a href="http://www.apache.org/licenses/LICENSE-2.0">
     <img src="http://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square" alt="License" />
@@ -12,8 +12,6 @@
   </a>
 </p>
 
-
-[![pub package](https://img.shields.io/pub/v/flutter_screenutil.svg)](https://pub.dartlang.org/packages/flutter_screenutil)
 
 🔥 A low-cost Flutter screen adaptation solution (参考今日头条 Android 屏幕适配方案的实现原理，实现的一个极低成本的 Flutter 屏幕适配方案)。
 
@@ -149,6 +147,13 @@ Tips：需要注意，因为库里改写了 devicePixelRatio，所以不能直�
 
 ## 效果图
 
+未适配前：从左到右的 dip 分别是 375 → 392 → 440
+
+![old_size](art/old_size.jpg)
+
+未适配前：从左到右的 dip 分别是 375 → 392 → 440
+
+![auto_size](art/auto_size.jpg)
 
 ## Roadmap
 
@@ -160,4 +165,3 @@ Tips：需要注意，因为库里改写了 devicePixelRatio，所以不能直�
 - Email: plokmju@gmail.com
 - 掘金：https://juejin.cn/user/3227821828236392
 - 公众号：承香墨影（ID:cxmyDev）
-

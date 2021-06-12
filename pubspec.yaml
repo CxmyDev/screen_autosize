@@ -1,8 +1,7 @@
 name: screen_autosize
-description: A new Flutter package.
-version: 0.0.1
-author:
-homepage:
+description: A low-cost Flutter screen adaptation solution (类似今日头条屏幕适配方案，一个极低成本的 Flutter 屏幕适配方案)。
+version: 0.0.1-beta.1
+homepage: https://github.com/CxmyDev/screen_autosize
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
