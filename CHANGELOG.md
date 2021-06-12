@@ -1,3 +1,7 @@
+## [0.0.1+1] 
+
+- fix doc.
+
 ## [0.0.1] 
 
 - first version.

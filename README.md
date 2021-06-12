@@ -38,6 +38,7 @@ Flutter 屏幕适配方案，可做到 100% 还原设计稿。
 
 1. 全局有效，无法单页面设置，需统一同项目不同模块的设计和开发标准；
 2. 编码注意点：不能使用 window 类 Api 获取尺寸信息；
+3. 需要重写 WidgetsFlutterBinding，可能与部分库存在冲突，需特殊处理；
 
 ## 使用方法
 
@@ -145,15 +146,15 @@ class ColorsWidget extends StatelessWidget{
 
 Tips：需要注意，因为库里改写了 devicePixelRatio，所以不能直接从 window 中获取对应参数。
 
-## 效果图
+## 效果
 
 未适配前：从左到右的 dip 分别是 375 → 392 → 440
 
-![old_size](art/old_size.jpg)
+![old_size](https://raw.githubusercontent.com/CxmyDev/screen_autosize/main/art/old_size.jpg)
 
 使用 screen_autosize 适配后：从左到右的 dip 分别是 375 → 392 → 440
 
-![auto_size](art/auto_size.jpg)
+![auto_size](https://raw.githubusercontent.com/CxmyDev/screen_autosize/main/art/auto_size.jpg)
 
 ## Roadmap
 
