@@ -13,7 +13,7 @@ class AutoSizeUtils {
 
   AutoSizeUtils._internal();
 
-  void initConfig(double baseWidth) {
+  void initConfig({@required double baseWidth}) {
     baseScreenWidth = baseWidth;
 
     devicePixelRatio = NON_INIT_RATIO;
@@ -40,8 +40,8 @@ class AutoSizeUtils {
     return _instance;
   }
 
-  EdgeInsets getPadding(BuildContext ctx) {
-    return MediaQuery.of(ctx).padding;
+  EdgeInsets getPadding() {
+    return EdgeInsets.only(top: statusBarHeight, bottom: bottomBarHeight);
   }
 
   Size get screenSize => Size(mediaWidth, mediaHeight);

@@ -26,6 +26,7 @@ class MediaQueryWrapper extends StatelessWidget {
         data: MediaQuery.of(context).copyWith(
           textScaleFactor: 1.0,
           size: AutoSizeUtils.instance.screenSize,
+          padding: AutoSizeUtils.instance.getPadding(),
           devicePixelRatio: AutoSizeUtils.instance.devicePixelRatio,
         ),
         child: builder(context));

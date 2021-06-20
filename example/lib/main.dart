@@ -3,7 +3,7 @@ import 'package:screen_autosize/screen_autosize.dart';
 import 'dart:ui' as ui show window;
 
 void main() {
-  AutoSizeUtils.instance.initConfig(375);
+  AutoSizeUtils.instance.initConfig(baseWidth: 375);
   runAutoSizeApp(MyApp());
 }
 
